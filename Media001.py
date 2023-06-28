@@ -1,8 +1,8 @@
 print("Media do aluno")
 print("---------------------------------------------------")
 
-peso1 = float(input("Digite o peso da primeira avaliacão: "))
-peso2 = float(input("Digite o peso da segunda avaliacão: "))
+peso1 = float(input("Digite o peso da primeira avaliacao: "))
+peso2 = float(input("Digite o peso da segunda avaliacao: "))
 AV1 = float(input("Digite a nota da primeira AV1: "))
 AV2 = float(input("Digite a nota da segunda AV2: "))
 
@@ -13,7 +13,7 @@ print("---------------------------------------------------")
 
 resultado = float(input("Media Final: "))
 if resultado >= 5.0:
-    print("A aluno obteve a nota acima de 5.0: APROVADO")
+    print("o aluno obteve a nota acima de 5.0: APROVADO")
 else:
     print("O aluno obteve a note abaixo de 5.0: REPROVADO")
 
