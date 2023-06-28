@@ -20,5 +20,5 @@ num7 = 350
 print("O resultado de",num6,"+",num7,"é:",num6+num7)
 
 print(math.factorial(num1) + num5)
-
+print("____________________________________")
 print("Fim do programa")
