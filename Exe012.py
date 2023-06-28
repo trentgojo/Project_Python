@@ -1,6 +1,7 @@
 idade = 18
 type(idade)
 print("Maior ou Menor")
+print("Se o aluno for maior de 18: ")
 if idade >= 18:
     print("Acesso liberado")
 else: print("Acesso negado")
