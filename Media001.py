@@ -21,5 +21,6 @@ else:
     print("O aluno obteve a note abaixo de 5.0: REPROVADO")
 
 print("Boas Ferias")
+
 print("-="*30)
 input("Aperte enter para sair")
