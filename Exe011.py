@@ -23,8 +23,4 @@ print("-="*25)
 
 #PROCURANDO LETRAS
 print("Procurando letras especificas: ")
-print(inicias = nome[1],sobrenome_pai[4],sobrenome_mae[5])
-
-
-
-
+print(nome[1],sobrenome_pai[4],sobrenome_mae[4])
