@@ -21,6 +21,4 @@ print("O nome completo é:",nome,"",sobrenome_pai,"",sobrenome_mae,",e as inicai
 print("Criando o email:"+nome+"."+sobrenome_pai+"@"+empresa+".com")
 print("-="*25)
 
-#PROCURANDO LETRAS
-print("Procurando letras especificas: ")
-print(nome[1],sobrenome_pai[4],sobrenome_mae[4])
+input("Clique para sair")
