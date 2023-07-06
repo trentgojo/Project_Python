@@ -1,29 +1,30 @@
-print("Teste de Nomes!!!!!!! ")
+print("<<Teste de Nomes>>")
+print("-="*20)
 
-nome = "Thiago"
-sobrenome_mae = "Carvalho"
-sobrenome_pai = "Porto"
-iniciais = nome[0] + sobrenome_mae[0] + sobrenome_pai[0]
-empresa = "ikross"
+#DADOS
+nome = "SATORU"
+sobrenome_pai = "GOJO"
+sobrenome_mae = "YUGI"
+inicias = nome[0] + sobrenome_mae[0] + sobrenome_mae[0]
+empresa = "JUJUTSU"
 
-print("---------------------------------------------------------------------")
-print(">>>INICIO")
-print("<<<Informações>>>")
-print("Nome do usuário:",nome, sobrenome_pai, sobrenome_mae)
-print("Quais são minhas iniciais:",iniciais)
+#RESOLUÇÃO
+print("<<DADOS>>")
+print("Nome do usuário:"+nome+""+sobrenome_pai+sobrenome_mae)
+print("Quais sao as inicias: "+inicias)
 print("Nome da empresa:",empresa)
-print("---------------------------------------------------------------------")
+print("-="*25)
 
+#RODANDO APLICACAO
+print(">>>INICIO")
+print("O nome completo é:",nome,"",sobrenome_pai,"",sobrenome_mae,",e as inicais sao:",inicias)
+print("Criando o email:"+nome+"."+sobrenome_pai+"@"+empresa+".com")
+print("-="*25)
 
-print("<<<Resultado:>>>" )
-
-print(nome+" "+sobrenome_mae+" "+sobrenome_pai)
-print("Meu nome completo é " +nome+ " " +sobrenome_mae + " " +sobrenome_pai + " e minhas iniciais são"+ " " +iniciais+".")
-print("Criando o Email: "+nome+"."+sobrenome_pai+"@"+empresa+".com" )
-print("---------------------------------------------------------------------")
+#PROCURANDO LETRAS
 print("Procurando letras especificas: ")
-print(nome[1],sobrenome_pai[4],sobrenome_mae[5])
-print(nome[4],sobrenome_mae[3],sobrenome_pai[3])
-print(sobrenome_pai[4],sobrenome_mae[2],nome[1])
-print("---------------------------------------------------------------------")
-print(">>>FIM")
+print(inicias = nome[1],sobrenome_pai[4],sobrenome_mae[5])
+
+
+
+
