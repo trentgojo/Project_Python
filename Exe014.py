@@ -1,4 +1,4 @@
-print("<<BOLETIM ESCOLAR>>")
+ print("<<BOLETIM ESCOLAR>>")
 
 print("-="*30)
 #DADOS DA AVALIAÇÃO
